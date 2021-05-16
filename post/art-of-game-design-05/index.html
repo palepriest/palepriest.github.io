@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The art of game design - part 5 | Palepriest</title>
+<meta name="keywords" content="" />
+<meta name="description" content="关于：“ The Art of Game Design ”，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。
+ 6. 游戏始于一个创意 6.1. 灵感 Q-35：模仿和灵感有什么区别？ 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？
+6.2. 陈述问题 Q-36：如何正确描述一个问题？ 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)
+6.3. 如何休息 显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）
+6.4. 潜意识 &amp; 头脑风暴 Q-37：创意的来源是什么？ 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。
+Q-38：如何接收潜意识的消息？ 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。
+7. 游戏在不断迭代中得到改进 7.1. 选择一个创意 Q-39：为什么要选择/筛选创意？（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。
+7.2. 创意的筛选 Q-40：如何有效地选择创意（或者说过滤不重要的创意）？ 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”
+7.3. 原型的迭代 Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？
+以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。
+因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。
+ 一点联想： 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。
+ 7.4. 风险评估和建立原型 这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。">
+<meta name="author" content="palepriest">
+<link rel="canonical" href="https://palepriest.github.io/post/art-of-game-design-05/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6d740a8b8ed9bfe1df6fad12a35618b34bd0e94ff5b2ca92ffcc062664576aa2.css" integrity="sha256-bXQKi47Zv&#43;Hfb60So1YYs0vQ6U/1ssqS/8wGJmRXaqI=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://palepriest.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://palepriest.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://palepriest.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://palepriest.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://palepriest.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.83.1" />
+<meta property="og:title" content="The art of game design - part 5" />
+<meta property="og:description" content="关于：“ The Art of Game Design ”，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。
+ 6. 游戏始于一个创意 6.1. 灵感 Q-35：模仿和灵感有什么区别？ 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？
+6.2. 陈述问题 Q-36：如何正确描述一个问题？ 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)
+6.3. 如何休息 显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）
+6.4. 潜意识 &amp; 头脑风暴 Q-37：创意的来源是什么？ 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。
+Q-38：如何接收潜意识的消息？ 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。
+7. 游戏在不断迭代中得到改进 7.1. 选择一个创意 Q-39：为什么要选择/筛选创意？（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。
+7.2. 创意的筛选 Q-40：如何有效地选择创意（或者说过滤不重要的创意）？ 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”
+7.3. 原型的迭代 Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？
+以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。
+因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。
+ 一点联想： 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。
+ 7.4. 风险评估和建立原型 这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://palepriest.github.io/post/art-of-game-design-05/" /><meta property="og:image" content="https://palepriest.github.io/papermod-cover.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-10-25T12:13:17&#43;08:00" />
+<meta property="article:modified_time" content="2020-10-25T12:13:17&#43;08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://palepriest.github.io/papermod-cover.png"/>
+
+<meta name="twitter:title" content="The art of game design - part 5"/>
+<meta name="twitter:description" content="关于：“ The Art of Game Design ”，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。
+ 6. 游戏始于一个创意 6.1. 灵感 Q-35：模仿和灵感有什么区别？ 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？
+6.2. 陈述问题 Q-36：如何正确描述一个问题？ 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)
+6.3. 如何休息 显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）
+6.4. 潜意识 &amp; 头脑风暴 Q-37：创意的来源是什么？ 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。
+Q-38：如何接收潜意识的消息？ 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。
+7. 游戏在不断迭代中得到改进 7.1. 选择一个创意 Q-39：为什么要选择/筛选创意？（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。
+7.2. 创意的筛选 Q-40：如何有效地选择创意（或者说过滤不重要的创意）？ 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”
+7.3. 原型的迭代 Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？
+以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。
+因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。
+ 一点联想： 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。
+ 7.4. 风险评估和建立原型 这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://palepriest.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The art of game design - part 5",
+      "item": "https://palepriest.github.io/post/art-of-game-design-05/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The art of game design - part 5",
+  "name": "The art of game design - part 5",
+  "description": "关于：“ The Art of Game Design ”，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。\n 6. 游戏始于一个创意 6.1. 灵感 Q-35：模仿和灵感有什么区别？ 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？\n6.2. 陈述问题 Q-36：如何正确描述一个问题？ 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)\n6.3. 如何休息 显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）\n6.4. 潜意识 \u0026amp; 头脑风暴 Q-37：创意的来源是什么？ 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。\nQ-38：如何接收潜意识的消息？ 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。\n7. 游戏在不断迭代中得到改进 7.1. 选择一个创意 Q-39：为什么要选择/筛选创意？（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。\n7.2. 创意的筛选 Q-40：如何有效地选择创意（或者说过滤不重要的创意）？ 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”\n7.3. 原型的迭代 Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？\n以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。\n因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。\n 一点联想： 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。\n 7.4. 风险评估和建立原型 这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。",
+  "keywords": [
+    
+  ],
+  "articleBody": " 关于：“ The Art of Game Design ”，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。\n 6. 游戏始于一个创意 6.1. 灵感 Q-35：模仿和灵感有什么区别？ 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？\n6.2. 陈述问题 Q-36：如何正确描述一个问题？ 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)\n6.3. 如何休息 显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）\n6.4. 潜意识 \u0026 头脑风暴 Q-37：创意的来源是什么？ 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。\nQ-38：如何接收潜意识的消息？ 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。\n7. 游戏在不断迭代中得到改进 7.1. 选择一个创意 Q-39：为什么要选择/筛选创意？（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。\n7.2. 创意的筛选 Q-40：如何有效地选择创意（或者说过滤不重要的创意）？ 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”\n7.3. 原型的迭代 Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？\n以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。\n因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。\n 一点联想： 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。\n 7.4. 风险评估和建立原型 这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。\n 设计角度 - 14：学会风险减缓，停止过分自信的思考，尝试发现潜藏的风险：\n 什么能阻碍游戏的开发进展（阻碍其成为出色的成品）？ 如何去避免，或者减缓风险的发生？   Q-42：如何建立原型（非技术向），有哪些提示？\n快速地创建原型是保证游戏开发质量的关键，原作介绍了 8 个提示：（1）回答特定的问题，“我们的技术能支持多少个角色在同一个场景中运动？”；（2）快速成型而非细致打磨；（3）不要留恋初始原型；（4）将原型排序，方便回溯；（5）并行建立原型，避免在一个原型中解决多个问题；（6）尝试纸面原型，可能更容易发现问题；（7）使用一个能够 “hot-reload” 的游戏引擎；（8）游戏主体天然是玩具，但反之不是。尝试制作玩具也可以辅助建立原型。\n7.5. 循环迭代 Q-43：如何尽可能快地完成迭代？ 总结之前的内容可以得到迭代的步骤：（1）表述问题；（2）通过头脑风暴得到一些可能的方案；（3）选择一个方案；（4）列举使用这个方案的风险；（5）建立原型，在早期减缓风险；（6）测试原型直到令人满意为止；（7）重复步骤 1~6。\nQ-44：如何（大概地）确定迭代的次数？ 游戏设计师 Mark Cerny 提出了一种方法，当我们进入一种状态，对游戏将要做成的样子有了足够的理解，并能够确定接下来的开发时间，就可以暂时结束迭代阶段，而达到这一阶段通常要花掉经费的 30%。所以正常来说，当上手一个项目，我们可以基于预算的 30%，调整需要迭代的次数。\n本章讨论了游戏应该如何制作，接下来需要思考的是：我们为谁制作游戏。\n",
+  "wordCount" : "91",
+  "inLanguage": "en",
+  "datePublished": "2020-10-25T12:13:17+08:00",
+  "dateModified": "2020-10-25T12:13:17+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "palepriest"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://palepriest.github.io/post/art-of-game-design-05/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Palepriest",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://palepriest.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://palepriest.github.io/" accesskey="h" title="Palepriest (Alt + H)">Palepriest</a>
+            <span class="logo-switches">
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://palepriest.github.io/archives" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://palepriest.github.io/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://palepriest.github.io/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://palepriest.github.io/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://palepriest.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://palepriest.github.io/post/">Posts</a></div>
+    <h1 class="post-title">
+      The art of game design - part 5
+    </h1>
+    <div class="post-meta">October 25, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;palepriest
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <div class="details">Table of Contents</div>
+        </summary>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#6-%e6%b8%b8%e6%88%8f%e5%a7%8b%e4%ba%8e%e4%b8%80%e4%b8%aa%e5%88%9b%e6%84%8f" aria-label="6. 游戏始于一个创意">6. 游戏始于一个创意</a><ul>
+                        
+                <li>
+                    <a href="#61-%e7%81%b5%e6%84%9f" aria-label="6.1. 灵感">6.1. 灵感</a></li>
+                <li>
+                    <a href="#62-%e9%99%88%e8%bf%b0%e9%97%ae%e9%a2%98" aria-label="6.2. 陈述问题">6.2. 陈述问题</a></li>
+                <li>
+                    <a href="#63-%e5%a6%82%e4%bd%95%e4%bc%91%e6%81%af" aria-label="6.3. 如何休息">6.3. 如何休息</a></li>
+                <li>
+                    <a href="#64-%e6%bd%9c%e6%84%8f%e8%af%86--%e5%a4%b4%e8%84%91%e9%a3%8e%e6%9a%b4" aria-label="6.4. 潜意识 &amp;amp; 头脑风暴">6.4. 潜意识 &amp; 头脑风暴</a></li></ul>
+                </li>
+                <li>
+                    <a href="#7-%e6%b8%b8%e6%88%8f%e5%9c%a8%e4%b8%8d%e6%96%ad%e8%bf%ad%e4%bb%a3%e4%b8%ad%e5%be%97%e5%88%b0%e6%94%b9%e8%bf%9b" aria-label="7. 游戏在不断迭代中得到改进">7. 游戏在不断迭代中得到改进</a><ul>
+                        
+                <li>
+                    <a href="#71-%e9%80%89%e6%8b%a9%e4%b8%80%e4%b8%aa%e5%88%9b%e6%84%8f" aria-label="7.1. 选择一个创意">7.1. 选择一个创意</a></li>
+                <li>
+                    <a href="#72-%e5%88%9b%e6%84%8f%e7%9a%84%e7%ad%9b%e9%80%89" aria-label="7.2. 创意的筛选">7.2. 创意的筛选</a></li>
+                <li>
+                    <a href="#73-%e5%8e%9f%e5%9e%8b%e7%9a%84%e8%bf%ad%e4%bb%a3" aria-label="7.3. 原型的迭代">7.3. 原型的迭代</a></li>
+                <li>
+                    <a href="#74-%e9%a3%8e%e9%99%a9%e8%af%84%e4%bc%b0%e5%92%8c%e5%bb%ba%e7%ab%8b%e5%8e%9f%e5%9e%8b" aria-label="7.4. 风险评估和建立原型">7.4. 风险评估和建立原型</a></li>
+                <li>
+                    <a href="#75-%e5%be%aa%e7%8e%af%e8%bf%ad%e4%bb%a3" aria-label="7.5. 循环迭代">7.5. 循环迭代</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>关于：<a href="http://www.artofgamedesign.com/">“ The Art of Game Design ”</a>，中文译名《全景探秘游戏设计艺术》，欢迎同好交流。</p>
+</blockquote>
+<h2 id="6-游戏始于一个创意">6. 游戏始于一个创意<a hidden class="anchor" aria-hidden="true" href="#6-游戏始于一个创意">#</a></h2>
+<h3 id="61-灵感">6.1. 灵感<a hidden class="anchor" aria-hidden="true" href="#61-灵感">#</a></h3>
+<p><strong>Q-35：模仿和灵感有什么区别？</strong> 灵感源自个人的经历，单纯的模仿虽然能学到很多东西，提升技能的熟练度，但永远不能形成自己的风格。尝试观察任何其他地方，发掘值得分享的体验，并思考如何用简单的方式将体验的核心部分放入游戏中。那么，如何将灵感变成游戏设计？</p>
+<h3 id="62-陈述问题">6.2. 陈述问题<a hidden class="anchor" aria-hidden="true" href="#62-陈述问题">#</a></h3>
+<p><strong>Q-36：如何正确描述一个问题？</strong> 问题中包含目标和约束，并且平衡范围，避免只在乎解决办法而忽视了问题本身。合理描述问题有助于发现更宽广的灵感空间，得到衡量创意品质的量度，当然也更方便沟通。(一点联想：可以参考 Wiki - Five Whys Before Ask)</p>
+<h3 id="63-如何休息">6.3. 如何休息<a hidden class="anchor" aria-hidden="true" href="#63-如何休息">#</a></h3>
+<p>显然保持良好的精神状态，是产生灵感的前提之一。这部分介绍了萨尔瓦多达利的休息技巧。（略）</p>
+<h3 id="64-潜意识--头脑风暴">6.4. 潜意识 &amp; 头脑风暴<a hidden class="anchor" aria-hidden="true" href="#64-潜意识--头脑风暴">#</a></h3>
+<p><strong>Q-37：创意的来源是什么？</strong> 创意通常不是来自于一个逻辑自洽并且详尽论述的过程，而是来自于潜意识。人们习惯将其人格化，比如斯蒂芬金在《关于写作》一书中将潜意识描述成 “缪斯神”，他具备以下为大多数人认可的特质：不善言语，好奇冲动，情绪丰富并且不循规蹈矩。那么，如何认识潜意识，通过他们获得创意，创造深层次的体验就成了新的问题。</p>
+<p><strong>Q-38：如何接收潜意识的消息？</strong> 作者给出了一些技巧：（1）集中注意力；（2）记录你的想法；（3）管理他的欲望；（4）高效的睡眠；（5）避免钻牛角尖。在不断练习之后，提高了对自身潜意识的感知程度，还需要通过 “头脑风暴” 加速产生创意。</p>
+<h2 id="7-游戏在不断迭代中得到改进">7. 游戏在不断迭代中得到改进<a hidden class="anchor" aria-hidden="true" href="#7-游戏在不断迭代中得到改进">#</a></h2>
+<h3 id="71-选择一个创意">7.1. 选择一个创意<a hidden class="anchor" aria-hidden="true" href="#71-选择一个创意">#</a></h3>
+<p><strong>Q-39：为什么要选择/筛选创意？</strong>（1）头脑风暴阶段产生的想法太多，陷入了选择困难；（2）为了保证游戏主题的唯一性和游戏基本元素的统一性；（3）避免浪费过多时间在思考潜在的可能性上。</p>
+<h3 id="72-创意的筛选">7.2. 创意的筛选<a hidden class="anchor" aria-hidden="true" href="#72-创意的筛选">#</a></h3>
+<p><strong>Q-40：如何有效地选择创意（或者说过滤不重要的创意）？</strong> 作者提供了 8 种测试：（1）冲动，“这个游戏感觉上正确吗？”；（2）受众，“面向的玩家群体足够喜欢这个游戏吗？”；（3）体验，“这是一个设计良好的游戏吗？”；（4）创新，“这个游戏足够新奇吗？”；（5）商业和市场，“这个游戏需要出售盈利吗？”；（6）技术，“游戏创意在技术上是否可行？”；（7）社区，“这个游戏有遵循社群/团队的目标吗？”；（8）试玩，“试玩/测试的人足够喜欢这个游戏吗？”</p>
+<h3 id="73-原型的迭代">7.3. 原型的迭代<a hidden class="anchor" aria-hidden="true" href="#73-原型的迭代">#</a></h3>
+<p><strong>Q-41：如果不能短时间内建立游戏的原型，又如何进入迭代的阶段？</strong></p>
+<p>以前有人会使用取巧的办法，提升制作的速度，借此博取爆款游戏的诞生，有时这个方法确实有用。但事实上，游戏制作本质是一个复杂的工程问题，一般难以预见完成的时间长短，以及花费多少时间，才能找到并修复开发中必将出现的问题。</p>
+<p>因此在开始迭代之前，游戏开发人员还需要额外考虑：（1）如何制定每个游戏的迭代次数？；（2）如何尽可能快地完成迭代？而解决这个问题，需要借助 “软件工程” 相关的内容。20 世纪 60 年代，项目管理部门引进了 “瀑布模型”，试图让软件开发流程线性化。到了1986 年，巴里 · 勃姆提出的螺旋模型，包含了风险评估、原型和迭代的想法，更符合真实的软件开发过程。</p>
+<blockquote>
+<p><strong>一点联想：</strong> 简单回顾软件工程的内容，其中瀑布模型的意义在于鼓励开发者在编码之前，花更多的时间在计划和设计上，而非指导他们严格遵循线性流程进行开发，因为复杂工程需要多次迭代才能发现、解决潜在的问题，显然瀑布模型（及其改良/变种/魔改模型）无法应对开发者逐步精简的开发流程和日益复杂的软件需求间的矛盾（拐到马哲去了=。=）。</p>
+</blockquote>
+<h3 id="74-风险评估和建立原型">7.4. 风险评估和建立原型<a hidden class="anchor" aria-hidden="true" href="#74-风险评估和建立原型">#</a></h3>
+<p>这部分用假想的游戏举例，介绍了如何应对风险和制作原型。建议尝试对自制游戏进行类似的实验。</p>
+<blockquote>
+<p>设计角度 - 14：学会风险减缓，停止过分自信的思考，尝试发现潜藏的风险：</p>
+<ul>
+<li>什么能阻碍游戏的开发进展（阻碍其成为出色的成品）？</li>
+<li>如何去避免，或者减缓风险的发生？</li>
+</ul>
+</blockquote>
+<p><strong>Q-42：如何建立原型（非技术向），有哪些提示？</strong></p>
+<p>快速地创建原型是保证游戏开发质量的关键，原作介绍了 8 个提示：（1）回答特定的问题，“我们的技术能支持多少个角色在同一个场景中运动？”；（2）快速成型而非细致打磨；（3）不要留恋初始原型；（4）将原型排序，方便回溯；（5）并行建立原型，避免在一个原型中解决多个问题；（6）尝试纸面原型，可能更容易发现问题；（7）使用一个能够 “hot-reload” 的游戏引擎；（8）游戏主体天然是玩具，但反之不是。尝试制作玩具也可以辅助建立原型。</p>
+<h3 id="75-循环迭代">7.5. 循环迭代<a hidden class="anchor" aria-hidden="true" href="#75-循环迭代">#</a></h3>
+<p><strong>Q-43：如何尽可能快地完成迭代？</strong> 总结之前的内容可以得到迭代的步骤：（1）表述问题；（2）通过头脑风暴得到一些可能的方案；（3）选择一个方案；（4）列举使用这个方案的风险；（5）建立原型，在早期减缓风险；（6）测试原型直到令人满意为止；（7）重复步骤 1~6。</p>
+<p><strong>Q-44：如何（大概地）确定迭代的次数？</strong> 游戏设计师 Mark Cerny 提出了一种方法，当我们进入一种状态，对游戏将要做成的样子有了足够的理解，并能够确定接下来的开发时间，就可以暂时结束迭代阶段，而达到这一阶段通常要花掉经费的 30%。所以正常来说，当上手一个项目，我们可以基于预算的 30%，调整需要迭代的次数。</p>
+<p>本章讨论了游戏应该如何制作，接下来需要思考的是：我们为谁制作游戏。</p>
+
+</div>
+  <footer class="post-footer">
+<nav class="paginav">
+  <a class="prev" href="https://palepriest.github.io/post/stray-purls-210322/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>The stray purls - m03d22</span>
+  </a>
+  <a class="next" href="https://palepriest.github.io/post/art-of-game-design-04/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>The art of game design - part 4</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <span>&copy; 2021 <a href="https://palepriest.github.io/">Palepriest</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
