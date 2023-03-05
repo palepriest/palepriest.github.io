@@ -1,0 +1,76 @@
+baseURL = "https://palepriest.github.io/"
+languageCode = "en-gb"
+title = "Pale's Digital Garden"
+theme = "digital-garden"
+themesdir = "./themes"
+copyright = "Pale Priest ©"
+rssLimit = 5
+
+
+[params]
+  name = "Pale Priest"
+  description = "👋 Hello, welcome to my digital garden, where contained programming and design."
+  initials = "PP"
+  googleAnalytics = ""
+
+  # [[params.social]]
+  #   name = "RSS"
+  #   link = "#"
+  #   icon = "fas fa-rss"
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/palepriest/"
+    icon = "fab fa-github"
+
+  # [[params.social]]
+  #   name = "Medium" 
+  #   link = "#"
+  #   icon = "fab fa-medium-m"
+
+  # [[params.social]]
+  #   name = "LinkedIn"
+  #   link = "#"
+  #   icon = "fab fa-linkedin-in"
+
+
+[menu]
+  [[menu.main]]
+    name = "Digital Garden"
+    url = "/garden/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Library"
+    url = "/library/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
