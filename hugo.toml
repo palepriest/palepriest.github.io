@@ -13,10 +13,10 @@ rssLimit = 5
   initials = "PP"
   googleAnalytics = ""
 
-  # [[params.social]]
-  #   name = "RSS"
-  #   link = "#"
-  #   icon = "fas fa-rss"
+  [[params.social]]
+    name = "RSS"
+    link = "https://palepriest.github.io/index.xml"
+    icon = "fas fa-rss"
 
   [[params.social]]
     name = "Github"
