@@ -1,5 +1,5 @@
 ---
-title: "Create personal blog"
+title: "Create Personal Blog"
 date: 2023-03-26T14:17:57+08:00
 lastmod: 2023-03-26T15:17:57+08:00
 draft: false
