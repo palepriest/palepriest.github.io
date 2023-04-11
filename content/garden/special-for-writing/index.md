@@ -1,5 +1,5 @@
 ---
-title: "SPECIAL - WRITING"
+title: "Special - Writing"
 date: 2023-03-31
 lastmod: 2023-03-31
 draft: false
@@ -18,7 +18,7 @@ status: "seeding"
 **封装**  
 将实践经验总结成最小可行模式
 
-- #01 信息管理不完全指南，guide-for-knowledge-management
+- #01 [信息管理工作流](https://palepriest.github.io/garden/guide-for-pkm/)，guide-for-knowledge-management
 - #02 工具和自动化实践，practice-for-automating
 - #03 写作这件事儿，experience-on-writing
 
