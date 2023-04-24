@@ -1,5 +1,5 @@
 ---
-title: "Creating personal blog"
+title: "Creating my blog"
 date: 2023-03-26T14:17:57+08:00
 lastmod: 2023-03-26T15:17:57+08:00
 draft: false
@@ -54,7 +54,7 @@ status: "seeding"
     # download theme
     $ git submodule https://github.com/paulmartins/hugo-digital-garden-theme.git themes/digital-garden
     # update theme
-    $ git submodule update --remote
+    $ git submodule update --recursive
     
     # copy default config to config.toml
     ```
