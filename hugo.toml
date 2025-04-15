@@ -1,5 +1,5 @@
 baseURL = "https://palepriest.github.io/"
-languageCode = "en-gb"
+languageCode = "en-us"
 title = "Pale's Digital Garden"
 theme = "digital-garden"
 themesdir = "./themes"
@@ -63,6 +63,13 @@ rssLimit = 5
   defaultMarkdownHandler = 'goldmark'
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.goldmark.parser]
+    autoHeadingID = true
+    autoHeadingIDType = 'github'
+    wrapStandAloneImageWithinParagraph = true
+    [markup.goldmark.parser.attribute]
+      block = false
+      title = true
   [markup.goldmark.extensions]
     definitionList = true
     footnote = true
