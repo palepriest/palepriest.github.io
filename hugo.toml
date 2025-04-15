@@ -81,3 +81,7 @@ rssLimit = 5
   [markup.highlight]
     # Choose from https://xyproto.github.io/splash/docs/all.html
     style = 'monokailight'
+	
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
